@@ -1,0 +1,47 @@
+.product {
+    width: calc(33.333% - 30px);
+}
+
+.product img {
+    border-radius: 10px;
+}
+
+.product h2 {
+    font-size: 22px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.desc {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 5px 0;
+}
+
+.price{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.product button{
+    background: red;
+    padding: 8px 20px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 0;
+}
+
+
+@media(max-width:768px){
+    .welcome{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .product{
+        width: 100%;
+    }
+}

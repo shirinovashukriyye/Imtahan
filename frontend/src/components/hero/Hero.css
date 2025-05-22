@@ -1,0 +1,50 @@
+.hero-img {
+    background-image: url(../../assets/images/slide1-01.jpg.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.hero-title {
+    position: relative;
+    color: white;
+    top: 300px;
+    text-align: center;
+}
+
+.hero-title span {
+    font-family: Courgette;
+    font-size: 60px;
+}
+
+.hero-title h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 1.1;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.hero-title button {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.1;
+    color: #ec1d25;
+    width: 135px;
+    height: 40px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+}
+
+@media(max-width:768px){
+    .hero-title h1{
+        font-size: 50px;
+    }
+
+    .hero-title{
+        top: 300px;
+    }
+}
