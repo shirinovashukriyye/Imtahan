@@ -1,0 +1,62 @@
+.hero {
+    position: relative;
+    display: inline-block;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.button {
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(90, 26, 163);
+    color: white;
+}
+
+
+.boxes {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.box {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    gap: 30px;
+}
+
+.icon {
+    font-size: 60px;
+    color: rgb(90, 26, 163);
+}
+
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ 
+}
+
+.image-item {
+    max-width: 100%;
+    height: 400px;
+
+}

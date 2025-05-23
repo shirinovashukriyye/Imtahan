@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navright{
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    &:hover{
+        color: skyblue;
+    }
+}
+.shopping{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

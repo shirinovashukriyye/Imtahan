@@ -1,0 +1,9 @@
+.jackets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightjacket{
+    align-items: center;
+    text-align: center;
+}

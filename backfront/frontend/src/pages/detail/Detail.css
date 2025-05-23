@@ -1,0 +1,21 @@
+.detail-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.detail-title button {
+    background: red;
+    padding: 8px 20px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 0;
+}

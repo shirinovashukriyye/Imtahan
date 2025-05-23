@@ -1,0 +1,24 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+.rightnav{
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .rightnav{
+        display: none;
+    }
+}

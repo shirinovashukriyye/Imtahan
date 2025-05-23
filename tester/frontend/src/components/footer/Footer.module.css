@@ -1,0 +1,18 @@
+.footers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    padding: 50px 0;
+}
+.email{
+    display:flex;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    gap: 5px;
+}

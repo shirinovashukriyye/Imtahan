@@ -1,0 +1,9 @@
+.awesome{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 0;
+}
+.card{
+    padding: 5px;
+}
